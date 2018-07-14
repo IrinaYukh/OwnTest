@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1_main.iml" group="Test1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1_test.iml" group="Test1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eBay.iml" filepath="$PROJECT_DIR$/.idea/modules/eBay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eBay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eBay_main.iml" group="eBay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eBay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eBay_test.iml" group="eBay" />
+    </modules>
+  </component>
+</project>
