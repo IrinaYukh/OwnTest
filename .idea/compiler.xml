@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="addressBookHome_main" target="1.8" />
+      <module name="addressBookHome_test" target="1.8" />
       <module name="eBay_main" target="1.8" />
       <module name="eBay_test" target="1.8" />
       <module name="Test1_main" target="1.8" />
