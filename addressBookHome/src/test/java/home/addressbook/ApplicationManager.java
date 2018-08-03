@@ -10,6 +10,7 @@ public class ApplicationManager {
 
     SessionHelper sessionHelper;
     GroupHelper groupHelper;
+    ContactHelper contactHelper;
 
     private WebDriver driver;
 
@@ -21,11 +22,13 @@ public class ApplicationManager {
         sessionHelper.url("http://localhost/addressbook/");
         sessionHelper.login("admin", "secret");
         groupHelper = new GroupHelper(driver);
+        contactHelper = new ContactHelper(driver);
     }
 
     public void stop() {
         driver.quit();
     }
+
 
     public GroupHelper getGroupHelper() {
         return groupHelper;
@@ -35,5 +38,9 @@ public class ApplicationManager {
         return sessionHelper;
     }
 
+    public ContactHelper getContactHelper()
+    {
+        return contactHelper;
+    }
 
 }
