@@ -73,4 +73,27 @@ public class ContactHelper extends HelperBase
     {
         return driver.findElements(By.xpath("//*[@name='selected[]']")).size();
     }
+
+    public void submitContactDeletion()
+    {
+        click(By.xpath("//*[@value='DELETE']"));
+    }
+
+    public void comfirmDeletion()
+    {
+        driver.switchTo().alert().accept();
+    }
+
+    public void dismissDeletion()
+    {
+        driver.switchTo().alert().dismiss();
+    }
+
+    public void selectAllcontacts()
+    {
+        click(By.cssSelector("#MassCB"));
+    }
+
+
+
 }
