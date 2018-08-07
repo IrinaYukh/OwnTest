@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="home.addressbook.tests.ContactModify" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-07T09:50:23" hostname="DESKTOP-Q5R7ENV" time="8.302">
+  <properties/>
+  <testcase name="contactModificationByIndexTest" classname="home.addressbook.tests.ContactModify" time="4.231"/>
+  <testcase name="contactModificationTest" classname="home.addressbook.tests.ContactModify" time="4.071"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

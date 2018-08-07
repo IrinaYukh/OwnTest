@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="home.addressbook.tests.ContactDelete" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-07T09:50:31" hostname="DESKTOP-Q5R7ENV" time="28.829">
+  <properties/>
+  <testcase name="deleteAllContactsTest" classname="home.addressbook.tests.ContactDelete" time="0.139"/>
+  <testcase name="deleteContactByIndexTest" classname="home.addressbook.tests.ContactDelete" time="14.35"/>
+  <testcase name="deleteContactTest" classname="home.addressbook.tests.ContactDelete" time="14.339"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

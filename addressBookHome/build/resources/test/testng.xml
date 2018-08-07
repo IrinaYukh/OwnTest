@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Login" >
+        <classes>
+            <class name="home.addressbook.tests.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="Contacts">
+        <classes>
+            <class name="home.addressbook.tests.ContactCreate"/>
+            <class name="home.addressbook.tests.ContactModify"/>
+            <class name="home.addressbook.tests.ContactDelete"/>
+        </classes>
+    </test>
+
+    <test name="Groups">
+        <classes>
+            <class name="home.addressbook.tests.GroupCreate"/>
+            <class name="home.addressbook.tests.GroupModify"/>
+            <class name="home.addressbook.tests.GroupDelete"/>
+        </classes>
+    </test>
+</suite>

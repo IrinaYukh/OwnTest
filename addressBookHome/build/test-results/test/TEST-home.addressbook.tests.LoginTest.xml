@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="home.addressbook.tests.LoginTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-07T09:49:53" hostname="DESKTOP-Q5R7ENV" time="22.062">
+  <properties/>
+  <testcase name="loginNegativeTest1" classname="home.addressbook.tests.LoginTest" time="5.328"/>
+  <testcase name="loginNegativeTest2" classname="home.addressbook.tests.LoginTest" time="5.344"/>
+  <testcase name="loginPositiveTest" classname="home.addressbook.tests.LoginTest" time="0.349"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
